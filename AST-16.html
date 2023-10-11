@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>AST-16</title>
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
+		<!-- <link rel="stylesheet" href=""> -->
+		<style>
+			* {
+				margin: 0px;
+				padding: 0px;
+			 }
+			body {
+				background-color: #009cd7;
+			}
+			.main {
+				max-width: 800px;
+				margin: 0px auto;
+				width: 100%;
+			}
+			.main .upper-main {
+				margin: 36px auto ;
+				border: 3px solid red;
+				padding: 10px;
+				width: 100%;
+			}
+			.bottom {
+				border: 3px solid red;
+				padding: 10px;
+				width: 100%;
+			}
+			.main .middle {
+				display:flex;
+				justify-content: space-between;
+				align-items: center;
+				gap:10px;
+				width: 100%;
+				max-width: 800px;
+				margin: 0px auto;
+				padding: 5px;
+			 }
+			.main .middle-card {
+				text-align: center;
+				border: 2px solid red;
+				text-transform: uppercase;
+				background-color: white;
+			}
+			.main .card-content {
+				text-align: center;
+				align-items: center;
+			}
+			.main .card-content button{
+				box-shadow: 0 3px rgb(52, 15, 12);
+		  		background-color: red;
+		  		text-transform: uppercase;
+		  		border-radius: 5px;
+		  		text-align: center;
+		  		margin: 0px auto;
+		  		padding: 5px;
+		  		border: 2px solid red;
+		  		color: white;
+				margin-bottom: 10px;
+			}
+			.card-img {
+				width: 100%;
+				min-width: 100px;
+			}
+			.bottom {
+				background-color: white;
+				text-align: center;
+			}
+			.bottom img {
+				width: 100%;
+			}
+			.bottom button {
+				box-shadow: 0 3px rgb(52, 15, 12);
+				background-color: red;
+				text-transform: uppercase;
+				border-radius: 5px;
+				text-align: center;
+				margin: 0px auto;
+				padding: 5px;
+				border: 2px solid red;
+				color: white;
+				margin-bottom: 10px;
+			}
+			.bottom p {
+
+			}
+			.stick {
+				/* display:inline-flex; */
+				text-align:right;
+				border: 2px solid red;
+				background-color: white;
+				position: -webkit-sticky; /* Safari */
+				justify-content: center;
+				align-items: center;
+				position: fixed;
+				position: -webkit-sticky;
+				width: 100px;
+				height: 100px;
+				top: 70px;
+				text-transform: uppercase;
+				right: 0px;
+			}
+			#navbar {
+				background-color: #333;
+				position: fixed;
+				top: 0;
+				width: 100%;
+				display: block;
+				transition: top 0.3s;
+				display: flex;
+				/* gap:1rem; */
+				padding: 15px;
+			}
+			.footer {
+  				right: 0;
+  				bottom: 0;
+  				left: 0;
+  				padding: 1rem;
+  				background-color: #2a353932;
+  				text-align: center;
+				display:flex ;
+				justify-content: space-between;
+			}
+			.footer div {
+				color: white;
+			}
+			.footer a {
+				text-decoration: none;
+				color: white;
+			}
+
+		</style>
+	</head>
+	<body>
+		<header id="navbar">
+		</header>
+		<div class="stick">
+				fixed
+			</div>
+		<div class="main">
+			<div class="upper-main">
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+			</div>
+			<div class="middle">
+				<div class="middle-card">
+					<h3>heading</h3>
+					<div class="card-img">
+						<img src="https://i.ibb.co/QfG8Nq6/B2-Cmarketplace.png" alt="Avatar">
+					</div>
+					<div class="card-content">
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+						<button>button</button>
+					</div>
+				</div>
+				<div class="middle-card">
+						<h3>heading</h3>
+					<div class="card-img">
+						<img src="https://i.ibb.co/QfG8Nq6/B2-Cmarketplace.png" alt="Avatar">
+					</div>
+					<div class="card-content">
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+						<button>button</button>
+					</div>
+				</div>
+				<div class="middle-card">
+						<h3>heading</h3>
+						<div class="card-img">
+							<img src="https://i.ibb.co/QfG8Nq6/B2-Cmarketplace.png" alt="Avatar">
+						</div>
+						<div class="card-content">
+							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+							<button>button</button>
+						</div>
+					</div>
+				</div>
+			<div class="bottom">
+				<img src="https://i.ibb.co/QfG8Nq6/B2-Cmarketplace.png" alt="Avatar">
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+				<button>Button</button>
+			</div>
+		</div>
+	<div class="footer">
+		<div><p>@copyright chalaager master cleaneer sdffd</p></div>
+		<div class="Social-media">
+	      <a href="#"><i class="fab fa-facebook"></i></a>
+	      <a href="#"><i class="fab fa-twitter"></i></a>
+	      <a href="#"><i class="fab fa-whatsapp"></i></a>
+	      <a href="#"><i class="fab fa-instagram"></i></a>
+	      <a href="#"><i class="fab fa-youtube"></i></a>
+	    </div>
+	</div>
+		<!--[if lt IE 7]>
+			<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+		<![endif]-->
+		<!-- <script src="" async defer></script> -->
+	</body>
+</html>

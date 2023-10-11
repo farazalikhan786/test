@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>AST 6</title>
+    <style>
+      body {
+        background-color:#ffcc5f;
+      }
+   	  .main {
+		overflow: hidden;
+        justify-content: center;
+        width: 80%;
+        margin: auto;
+        padding: 10px;
+      }
+      .upper {
+		padding: 10px ;
+		margin: 5px;
+		background-color: #444444;
+       }
+      .upper-sec {
+		margin: auto;
+		justify-content: space-between;
+		display: inline;
+        text-align: center;
+	  }
+	  .upper .upper-sec ul {
+	    list-style: none;
+		margin: 0;
+  		padding: 0;
+  		overflow: hidden;
+	  }
+	  .upper .upper-sec li {
+		 float: left;
+		 position: relative;
+	  }
+      .upper .upper-sec li a {
+		background-color: #ff7a3c;
+		margin: 5px;
+		/* display: block; */
+		display:inline-block;
+     	padding: 0 12px;
+     	line-height: 55px;
+ 		color:white;
+        font-size:clamp(1rem, 2.5vw, 1.5rem);
+	  }
+	  .bottom .card-main {
+		background-color:  #fe5b62;;
+		justify-content: space-between;
+        display: flex;
+		padding: 15px;
+	  }
+      .bottom .card-main .card-img {
+		position: relative;
+  		text-align: center;
+		/* border :15px solid #007a7f; */
+      }
+      .card button {
+        justify-content: center;
+        text-align: center;
+		margin: auto;
+        padding: 8px 25px 8px 25px ;
+        background-color: red;
+        border: 2px solid transparent;
+        color:white;
+        box-shadow: none;
+        font-size:clamp(1rem, 2.5vw, 1.5rem);
+      }
+	   .card:last-child button {
+        justify-content: center;
+        text-align: center;
+		margin: auto;
+		/* padding: 0px; */
+        padding: 8px 25px 8px 25px ;
+        background-color: red;
+        border: 2px solid transparent;
+        color:white;
+        border-radius:16px;
+        box-shadow: none;
+        font-size:clamp(1rem, 2.5vw, 1.5rem);
+      }
+      .bottom .card img {
+        width: 100%;
+        height: auto;
+      }
+      .bottom p {
+		letter-spacing: 0.1rem;
+    	line-height: 1.7;
+	  }
+      .bottom .card {
+		overflow: hidden;
+		margin: 5px;
+        justify-content: space-between;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+<div class="main">
+  <div class="upper">
+	<div class="upper-sec">
+		<ul>
+			<li><a>HOME</a></li>
+			<li><a>BLOG</a></li>
+			<li><a>CONTACT US</a></li>
+			<li><a>ABOUT US</a></li>
+			<li><a>PRODUCTS</a></li>
+		</ul>
+	</div>
+  </div>
+  <div class="bottom">
+      <div class="card-main">
+    <div class="card">
+		<div class="card-img">
+      		<img src="https://i.ibb.co/QfG8Nq6/B2-Cmarketplace.png" alt="Avatar" style="width:100%">
+	  	</div>
+        <button>BUTTON</button>
+  </div>
+      <div class="card">
+		<div class="card-img">
+      		<img src="https://i.ibb.co/QfG8Nq6/B2-Cmarketplace.png" alt="Avatar" style="width:100%">
+	  	</div>
+        <button>BUTTON</button>
+  </div>
+    <div class="card">
+		<div class="card-img">
+      <img src="https://i.ibb.co/QfG8Nq6/B2-Cmarketplace.png" alt="Avatar" style="width:100%">
+	  	</div>
+          <button>BUTTON</button>
+  </div>
+      </div>
+	    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+  </div>
+</div>
+  </body>
+</html>
